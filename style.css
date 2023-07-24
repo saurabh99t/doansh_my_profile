@@ -8,6 +8,14 @@ body {
     display: flex;
   }
   
+
+
+
+  .top-heading{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.413);
+  }
   .sidebar {
     flex: 0 0 25%;
     padding: 20px;
@@ -19,12 +27,18 @@ body {
     padding: 10px;
     text-decoration: none;
     color: #333;
+    transition: 0.3s ease-in-out;
   }
   
-  .sidebar a.active {
-    background-color: #ccc;
-  }
+  /* .sidebar a.active {
+    background-color: #ff0000;
+  } */
   
+
+  .sidebar a:hover{
+    background-color: #007bff ;
+    color: white;
+  }
   .main {
     flex: 1;
     padding: 20px;
@@ -106,6 +120,10 @@ body {
     text-align: center;
   }
 
+
+  .submit-button :hover{
+    background-color: #0056b3;
+  }
   .submit-button button {
     width: 120px;
   }
