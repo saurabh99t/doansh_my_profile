@@ -1,0 +1,373 @@
+.containerr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.section {
+    /* flex-basis: 33.334%; You can adjust this to fit your design */
+    box-sizing: border-box;
+    /* margin: 5px; */
+    padding: 20px 20px 20px 0;
+    border-bottom: 1px solid #ccc;
+    /* border-radius: 5px; */
+    /* background-color: #f2f2f2;
+    
+    */
+
+
+}
+
+
+#section1{
+    flex-basis: 40%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+
+
+#section2{
+    flex-basis: 40%;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /* background-color: rgb(24, 255, 193);  */
+   
+}
+
+
+#section2 p{
+    margin: 0;
+    font-size: 22px;
+    color: orange;
+}
+
+
+#section3{
+    flex-basis: 20%;
+    /* text-align: center; */
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#section3 p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    color: rgb(74, 74, 74);
+}
+
+#date-delivery{
+  padding: 8px;
+    font-size: 18px;
+    font-weight: 600 !important;
+    color: black !important;
+   
+}
+
+#status {
+    color: rgb(74, 74, 74) !important;
+}
+
+.My-orders{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+
+.part1-sec1 img{
+border-radius: 10px;
+}
+.My-orders button{
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+
+.cancel-div button {
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}
+
+.part2-sec2{
+    padding-left: 20px;
+}
+
+#title-dress {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 16px;
+}
+
+#made-by{
+    font-weight: 400;
+    color: gray;
+    font-size: 10px;
+    margin-top: 2px;
+    /* margin-bottom: 35px; */
+}
+
+
+
+
+.cancel-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+
+
+
+/* -------- */
+/* order form css */
+
+#order-id{
+    background-color: rgba(128, 128, 128, 0.135);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#order-idno{
+    color: blue;
+    font-size: 14px;
+}
+
+
+
+#order-placed{
+    font-size: 14px;
+    padding-left: 15px;
+    color: gray;
+}
+
+
+
+.size{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgba(54, 54, 54, 0.482);
+}
+
+#price p{
+    font-size: 15px;
+    color: green;
+    margin: 0;
+    padding-top: 2px;
+}
+
+
+#credit-card-text {
+    padding-left: 25px;
+}
+
+
+
+#cart-total {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+.price-div p{
+    padding-top: 5px;
+    display: flex;   
+    justify-content: space-between;
+}
+/* --------- */
+
+
+/* Responsive layout - makes the menu and the content stack on top of each other */
+@media (max-width: 600px) {
+    .section {
+        flex-basis: 100%;
+   
+    }
+
+
+
+}
+
+
+
+
+  
+@media (max-width:600px){
+    #section1{
+        flex-basis: 100%;
+   
+    }
+    #section2{
+        flex-basis: 100%;
+   
+    }
+
+
+    #section3{
+        flex-basis: 100%;
+   
+    }
+
+
+
+    #credit-card-text {
+        font-size: 12px;
+    }
+
+
+
+    .My-orders button {
+        border-radius: 25px;
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+
+
+    #order-placed {
+        font-size: 8px;
+        padding-left: 10px;
+        color: gray;
+    }
+
+
+
+    #order-id{
+        font-size: 8px;
+    }
+    #order-idno {
+        font-size: 8px;
+    }
+
+
+    #title-dress{
+        font-size: 20px;
+    }
+    .input-col input {
+        width: 86%;
+    }        
+  
+  }
+  
+  
+  @media (max-width:500px){
+    #section1{
+        flex-basis: 100%;
+    
+
+    }
+
+
+
+
+    #section2{
+        flex-basis: 100%;
+   
+    }
+
+
+    #section3{
+        flex-basis: 100%;
+   
+    }
+
+
+    #credit-card-text {
+        font-size: 8px;
+        padding-left: 2px;
+    }
+
+
+    
+    .cancel-div button {
+        border-radius: 25px;
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+
+
+    .My-orders button {
+        border-radius: 25px;
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+
+    .input-col input {
+        width: 86%;
+    }
+  
+  }
+  
+  
+  @media (max-width:360px){
+    #section1{
+        flex-basis: 100%;
+   
+    }
+
+    #section2{
+        flex-basis: 100%;
+   
+    }
+
+
+    #section3{
+        flex-basis: 100%;
+   
+    }
+
+    #credit-card-text {
+        font-size: 5px;
+        padding-left: 2px;
+    }
+
+
+    .cancel-div button {
+        border-radius: 25px;
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+
+
+
+    .My-orders button {
+        border-radius: 25px;
+        padding: 8px 10px;
+        font-size: 9px;
+    }
+  
+
+
+    #title-dress{
+        font-size: 15px;
+    }
+
+    .input-col input {
+        width: 86%;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  

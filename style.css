@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 0 0 25%;
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .sidebar a.active {
+    background-color: #ccc;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .content.active {
+    display: block;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+/* ... Previous CSS styles ... */
+
+.input-row {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .input-col {
+    flex: 1;
+    padding-right: 10px;
+  }
+
+
+  .input-col input{
+    width: 82%;
+  }
+
+
+  #birthday-div input{
+  display: flex;
+    width: 40.2%;
+  }
+
+
+  #phone {
+    width: 90%;
+  }
+  
+
+
+  #email {
+    width: 90%;
+  }
+
+
+
+  .submit-button {
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .submit-button button {
+    width: 120px;
+  }
+  /* ... Remaining CSS styles ... */
+  
+
+
+
+
+/* css */
+
+.heading-details p{
+
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column-reverse;
+    }
+
+
+  
+    .sidebar {
+      flex: 1;
+      order: 2;
+      margin-top: 20px;
+    }
+  
+    .main {
+      flex: 1;
+      order: 1;
+  
+    }
+  }
+  
+
+
+
+
+
